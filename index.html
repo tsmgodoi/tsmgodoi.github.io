@@ -6,7 +6,7 @@
       <div id="placeholder1"></div>
     </div>
     <div id="container2">
-      <div id="placeholder2"></div>
+      <div id="placeholder1"></div>
     </div>
     <script type="text/javascript" src="https://doc.onlyoffice.com/web-apps/apps/api/documents/api.js"></script>
     <script type="text/javascript">
@@ -37,7 +37,7 @@
       };
       var docEditor1 = new DocsAPI.DocEditor("placeholder1", config);
       setTimeout(function() {
-        var docEditor2 = new DocsAPI.DocEditor("placeholder2", config);
+        var docEditor2 = new DocsAPI.DocEditor("placeholder1", config);
       }, 10000);
       setTimeout(function() {
         var element = document.getElementById("container2");
