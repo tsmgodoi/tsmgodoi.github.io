@@ -7,22 +7,29 @@
     <script type="text/javascript" src="https://doc.onlyoffice.com/web-apps/apps/api/documents/api.js"></script>
     <script type="text/javascript">
       var config = {
-          "document": {
-              "fileType": "docx",
-              "key": "Khirz6zTPdfd7",
-              "title": "Example Document Title.docx",
-              "url": "https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
-              "permissions": {
-                "download": true,
-                "edit": false,
-                "print": true,
-                "reader": true
-              }
+        "document": {
+          "fileType": "docx",
+          "key": "wwwdemoa6dc8330-c8a3-49d6-b18e-70941d987ba5",
+          "permissions": {
+            "download": false,
+            "print": false
           },
-          "documentType": "word",
-          "editorConfig": {
-              
+          "title": "Example Title.docx",
+          "url": "https://d2nlctn12v279m.cloudfront.net/assets/docs/samples/demo.docx"
+        },
+        "documentType": "text",
+        "editorConfig": {
+          "callbackUrl": "https://www.onlyoffice.com:443/post.ashx?type=editor-callback",
+          "customization": {
+            "feedback": {
+              "visible": true
+            },
+            "hideRightMenu": true
           }
+        },
+        "height": "550px",
+        "token": "ew0KICAidHlwIjogIkpXVCIsDQogICJhbGciOiAiSFMyNTYiDQp9.ew0KICAiZG9jdW1lbnQiOiB7DQogICAgImZpbGVUeXBlIjogImRvY3giLA0KICAgICJrZXkiOiAid3d3ZGVtb2E2ZGM4MzMwLWM4YTMtNDlkNi1iMThlLTcwOTQxZDk4N2JhNSIsDQogICAgInBlcm1pc3Npb25zIjogew0KICAgICAgImRvd25sb2FkIjogZmFsc2UsDQogICAgICAicHJpbnQiOiBmYWxzZQ0KICAgIH0sDQogICAgInRpdGxlIjogIkV4YW1wbGUgVGl0bGUuZG9jeCIsDQogICAgInVybCI6ICJodHRwczovL2QybmxjdG4xMnYyNzltLmNsb3VkZnJvbnQubmV0L2Fzc2V0cy9kb2NzL3NhbXBsZXMvZGVtby5kb2N4Ig0KICB9LA0KICAiZG9jdW1lbnRUeXBlIjogInRleHQiLA0KICAiZWRpdG9yQ29uZmlnIjogew0KICAgICJjYWxsYmFja1VybCI6ICJodHRwczovL3d3dy5vbmx5b2ZmaWNlLmNvbTo0NDMvcG9zdC5hc2h4P3R5cGU9ZWRpdG9yLWNhbGxiYWNrIiwNCiAgICAiY3VzdG9taXphdGlvbiI6IHsNCiAgICAgICJmZWVkYmFjayI6IHsNCiAgICAgICAgInZpc2libGUiOiB0cnVlDQogICAgICB9LA0KICAgICAgImhpZGVSaWdodE1lbnUiOiB0cnVlDQogICAgfQ0KICB9LA0KICAiaGVpZ2h0IjogIjU1MHB4IiwNCiAgIndpZHRoIjogIjEwMCUiDQp9.KPOrWMmvgj3UuHbaV068DNJjrShZm06hi3Qq5frKR58",
+        "width": "100%"
       };
       var docEditor = new DocsAPI.DocEditor("placeholder1", config);
     </script>
