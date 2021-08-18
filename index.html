@@ -2,7 +2,29 @@
   <head><title>OnlyOffice Example</title></head>
   <body>
     <h1>OnlyOffice Example</h1>
-    <div id="placeholder"></div>
+    <div id="placeholder1"></div>
+    <div id="placeholder2"></div>
     <script type="text/javascript" src="https://doc.onlyoffice.com/web-apps/apps/api/documents/api.js"></script>
+    <script type="text/javascript">
+      var config = {
+          "document": {
+              "fileType": "docx",
+              "key": "Khirz6zTPdfd7",
+              "title": "Example Document Title.docx",
+              "url": "https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
+              "permissions": {
+                "download": true
+                "edit": false
+                "print": true
+                "reader": true
+              }
+          },
+          "documentType": "word",
+          "editorConfig": {
+              
+          }
+      };
+      var docEditor = new DocsAPI.DocEditor("placeholder1", config);
+    </script>
   </body>
 </html>
